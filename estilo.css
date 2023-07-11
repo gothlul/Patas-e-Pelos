@@ -45,3 +45,18 @@ hr{
     background-size: contain;
 
 }
+
+
+footer{
+    -webkit-background: linear-gradient(to top, #101010, #303030);
+    -moz-background: linear-gradient(to top, #101010, #303030);
+    -o-background: linear-gradient(to top, #101010, #303030);
+    background: linear-gradient(to top, #101010, #303030);
+    color: white;
+
+}
+
+
+footer a{
+    color: white;
+}
