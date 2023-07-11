@@ -3,3 +3,45 @@
     color: white;
 }
 
+.box-horizontal-100{
+    padding: 75px 0;
+    
+}
+
+hr{
+    width: 80%;
+    border-bottom: 2px solid rgba( 10, 10, 10, .75);
+}
+
+
+#beneficios{
+    padding: 50px 0;
+    margin-bottom: 25px;
+}
+
+
+.imagem-beneficio{
+    height: 250px;
+}
+
+
+#imagem-beneficio-01{
+    height: 100%;
+    background: url("img/tosa.png") no-repeat center center;
+    background-size: contain;
+
+}
+
+#imagem-beneficio-02{
+    height: 100%;
+    background: url("img/petfriend.png") no-repeat center center;
+    background-size: contain;
+
+}
+
+#imagem-beneficio-03{
+    height: 100%;
+    background: url("img/banho.png") no-repeat center center;
+    background-size: contain;
+
+}
