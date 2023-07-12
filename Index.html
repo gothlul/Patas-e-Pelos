@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Patas & Pelos</title>
+    <link rel="icon" href="img/logo.svg">
 
     <!--BOOTSTRAP-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -24,9 +25,13 @@
 <body>
 
     <header>
-        <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
-            <div class="container col-md-9">
-                <a class="navbar-brand" href="Index.html">Patas & Pelos
+        <nav class="navbar navbar-expand-sm navbar-dark bg-primary fixed-top">
+            <div class="container col-11 col-md-9">
+                <a class="navbar-brand col-9 col-md-6" href="Index.html">
+                    <div id="logo" class="d-inline-block col-3 col-md-1">
+                        <img class="img-fluid" src="img/logo.svg">
+                    </div>
+                    Patas & Pelos
                     <img>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navPrincipal"
@@ -45,7 +50,7 @@
                             <a class="nav-link fw-semibold" href="#produtos">Produtos</a>
                         </li>
                         <li class="nav-item ml-2">
-                            <a class="nav-link fw-semibold" href="#beneficios">Pacotes</a>
+                            <a class="nav-link fw-semibold" href="#beneficios">Benefícios</a>
                         </li>
                     </ul>
                 </div>
@@ -56,11 +61,11 @@
     <main>
 
         <section id="home">
-            <div class="container col-md-9 pt-4">
+            <div class="container col-11 col-md-9 pt-4">
                 <div class="row">
                     <div class="col col-md-6 d-flex">
                         <div class="align-self-center">
-                            <h1 class="display-4">O melhor cuidado para seu bichinho</h1>
+                            <h1 class="display-4 fw-medium pb-1">O melhor cuidado para seu bichinho</h1>
                             <p>Lider em atendimento e atenção ao seu pet. A Patas & Pelos zela pelo bem-estar animal,
                                 atuando desde 1993</p>
                             <form class="mt-5 mb-4">
@@ -89,14 +94,13 @@
         <section id="atendimento" class="box-horizontal-100">
             <div class="container col-md-8">
                 <div class="row">
-                    <div class="col-12 col-md-6 d-flex d-md-block justify-content-center">
-                        <img src="img/atendimento.png" class="img-fluid">
+                    <div class="col-12 col-md-6 d-flex d-md-block justify-content-center pb-5">
+                        <img src="img/atendimento.png" class="img-fluid col-10 col-md-12">
                     </div>
                     <div class="col-12 col-md-6 d-flex">
-                        <div class="align-self-center">
+                        <div class="col-10 col-md-12 align-self-center mx-auto">
                             <h2>Nosso atendimento</h2>
-                            <p>Possuimos os melhores fornecedores da região, com os produtos da mais alta qualidade,
-                                tudo isso pensando no bem-estar do seu pet</p>
+                            <p>Nossos funcionários são treinados para criar um ambiente tranquilo e seguro, no qual o seu pet se sentirá à vontade durante toda a visita em nossas instalações.</p>
 
                         </div>
                     </div>
@@ -109,21 +113,20 @@
 
 
         <section id="produtos" class="box-horizontal-100">
-            <div class="container col-md-8">
+            <div class="container col-11 col-md-8">
                 <div class="row">
                     <div class="col-12 col-md-6 d-flex">
-                        <div class="align-self-center">
+                        <div class="col-10 col-md-12 align-self-center mx-auto">
                             <h2>Nossos produtos</h2>
-                            <p>Possuimos os melhores fornecedores da região, com os produtos da mais alta qualidade,
-                                tudo isso pensando no bem-estar do seu pet</p>
-                            <div class="d-flex justify-content-end mt-5">
-                                <a href="nossos-produtos.html" class="btn btn-outline-success">Conferir<i class="fa-solid fa-arrow-right ms-3"></i>
+                            <p>Na Patas & Pelos, temos um compromisso inabalável com a qualidade dos produtos que oferecemos aos nossos clientes peludos. Reconhecemos que a saúde e o bem-estar do seu pet dependem, em grande parte, dos produtos que eles consomem ou utilizam. Portanto, selecionamos cuidadosamente nossos fornecedores e priorizamos produtos de alta qualidade e confiáveis.</p>
+                            <div class="d-none justify-content-end mt-5"> <!-- adicionar d-flex para inicio de complementação-->
+                                <a href="produtos.html" class="btn btn-outline-dark">Conferir<i class="fa-solid fa-arrow-right ms-3"></i>
                                 </a>
                             </div>
 
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 d-flex justify-content-end">
+                    <div class="col-12 col-md-6 d-flex justify-content-end pt-5">
                         <img src="img/Ração.png" class="img-fluid  mx-auto mx-md-0">
                     </div>
                 </div>
@@ -133,31 +136,31 @@
 
 
         <section id="beneficios" class="bg-primary">
-            <div class="container col-md-8">
+            <div class="container col-11 col-md-8">
                 <div class="row">
                     <h2 class="text-center">Benefícios</h2>
                 </div>
                 <div class="row pt-4">
                     <div class="col-12 col-md-4">
-                        <div class="imagem-beneficio">
+                        <div class="col-10 col-md-12 imagem-beneficio mx-auto">
                             <div id="imagem-beneficio-01"></div>
                         </div>
-                        <h4 class="text-center my-4 pt-2">Cuidade com limpera</h4>
-                        <p class="px-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id doloribus deserunt, sint totam accusantium similique. Expedita laboriosam ea veniam corporis fuga eius soluta repellat deserunt earum, saepe minus ipsum dicta!</p>
+                        <h4 class="my-4 pt-2 px-3 col-10 col-md-12 mx-auto">Proficionais altamente qualificados</h4>
+                        <p class="px-3">Garantimos que seu pet receberá o melhor cuidado possível. Desde a recepção calorosa até o cuidado especializado.</p>
                     </div>
                     <div class="col-12 col-md-4">
-                        <div class="imagem-beneficio">
+                        <div class="col-10 col-md-12 imagem-beneficio mx-auto">
                             <div id="imagem-beneficio-02"></div>
                         </div>
-                        <h4 class="text-center my-4 pt-2">PET Friends</h4>
-                        <p class="px-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id doloribus deserunt, sint totam accusantium similique. Expedita laboriosam ea veniam corporis fuga eius soluta repellat deserunt earum, saepe minus ipsum dicta!</p>
+                        <h4 class="my-4 pt-2 px-3 col-10 col-md-12 mx-auto">Cuidado especializado para cada animal</h4>
+                        <p class="px-3">Entendemos que cada pet é único e tem necessidades específicas. Por isso, dedicamos tempo para conhecer seu pet e entender suas necessidades.</p>
                     </div>
                     <div class="col-12 col-md-4">
-                        <div class="imagem-beneficio">
+                        <div class="col-10 col-md-12 imagem-beneficio mx-auto">
                             <div id="imagem-beneficio-03"></div>
                         </div>
-                        <h4 class="text-center my-4 pt-2">Cuidade com limpera</h4>
-                        <p class="px-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id doloribus deserunt, sint totam accusantium similique. Expedita laboriosam ea veniam corporis fuga eius soluta repellat deserunt earum, saepe minus ipsum dicta!</p>
+                        <h4 class="my-4 pt-2 px-3 col-10 col-md-12 mx-auto">Ampla gama de serviços oferecidos</h4>
+                        <p class="px-3">Incluindo banho, tosa, consultas veterinárias e aulas de treinamento, priorizando sempre o bem-estar do seu pet.</p>
                     </div>
                 </div>
             </div>
@@ -166,15 +169,15 @@
     </main>
 
     <footer class="py-5">
-        <div class="container col-md-9 py-3">
+        <div class="container col-11 col-md-9 py-3">
             <div class="row justify-content-between">
                 <div class="col-12 col-md-5">
                     <p>&copy; Todos os direitos reservados</p>
                 </div>
-                <div class="col col-md-5 d-block d-md-flex justify-content-end">
-                    <a href="" class="mx-auto mx-md-3"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="" class="mx-auto mx-md-3"><i class="fa-brands fa-github-alt"></i></a>
-                    <a href="" class="ms-auto ms-md-3"><i class="fa-brands fa-whatsapp"></i></a>
+                <div class="col-12 col-md-5 d-flex justify-content-md-end">
+                    <a href="" class="me-4 mx-md-3"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="" class="mx-4 mx-md-3"><i class="fa-brands fa-github-alt"></i></a>
+                    <a href="" class="mx-4 ms-md-3"><i class="fa-brands fa-whatsapp"></i></a>
                 </div>
             </div>
         </div>
