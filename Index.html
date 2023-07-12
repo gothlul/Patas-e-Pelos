@@ -24,9 +24,9 @@
 <body>
 
     <header>
-        <nav class="navbar navbar-expand-sm navbar-light bg-success">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
             <div class="container col-md-9">
-                <a class="navbar-brand" href="#">Patas & Pelos
+                <a class="navbar-brand" href="Index.html">Patas & Pelos
                     <img>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navPrincipal"
@@ -36,13 +36,16 @@
                 <div class="collapse navbar-collapse" id="navPrincipal">
                     <ul class="navbar-nav justify-content-end flex-grow-1">
                         <li class="nav-item mx-2">
-                            <a class="nav-link" aria-current="page" href="#home">Home</a>
+                            <a class="nav-link fw-semibold" aria-current="page" href="#home">Home</a>
                         </li>
                         <li class="nav-item mx-2">
-                            <a class="nav-link" href="#">Recursos</a>
+                            <a class="nav-link fw-semibold" href="#atendimento">Atendimento</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link fw-semibold" href="#produtos">Produtos</a>
                         </li>
                         <li class="nav-item ml-2">
-                            <a class="nav-link">Pacotes</a>
+                            <a class="nav-link fw-semibold" href="#beneficios">Pacotes</a>
                         </li>
                     </ul>
                 </div>
@@ -51,6 +54,7 @@
     </header>
 
     <main>
+
         <section id="home">
             <div class="container col-md-9 pt-4">
                 <div class="row">
@@ -59,10 +63,11 @@
                             <h1 class="display-4">O melhor cuidado para seu bichinho</h1>
                             <p>Lider em atendimento e atenção ao seu pet. A Patas & Pelos zela pelo bem-estar animal,
                                 atuando desde 1993</p>
-                            <form class="my-4">
+                            <form class="mt-5 mb-4">
+                                <p>Fique por dentro das nossas novidades</p>
                                 <div class="input-group input-group-lg">
                                     <input type="email" class="form-control" aria-describedby="#botaoEnvio"
-                                        placeholder="Fique por dentro das nossas novidades">
+                                        placeholder="E-mail">
                                     <button type="button" class="btn btn-dark" id="botaoEnvio">Enviar</button>
 
                                 </div>
@@ -81,7 +86,7 @@
             </div>
         </section>
 
-        <section class="box-horizontal-100">
+        <section id="atendimento" class="box-horizontal-100">
             <div class="container col-md-8">
                 <div class="row">
                     <div class="col-12 col-md-6 d-flex d-md-block justify-content-center">
@@ -103,7 +108,7 @@
         <hr class="container">
 
 
-        <section class="box-horizontal-100">
+        <section id="produtos" class="box-horizontal-100">
             <div class="container col-md-8">
                 <div class="row">
                     <div class="col-12 col-md-6 d-flex">
@@ -112,7 +117,7 @@
                             <p>Possuimos os melhores fornecedores da região, com os produtos da mais alta qualidade,
                                 tudo isso pensando no bem-estar do seu pet</p>
                             <div class="d-flex justify-content-end mt-5">
-                                <a class="btn btn-outline-success">Conferir<i class="fa-solid fa-arrow-right ms-3"></i>
+                                <a href="nossos-produtos.html" class="btn btn-outline-success">Conferir<i class="fa-solid fa-arrow-right ms-3"></i>
                                 </a>
                             </div>
 
@@ -125,32 +130,34 @@
             </div>
         </section>
 
-        <section id="beneficios" class="bg-success">
+
+
+        <section id="beneficios" class="bg-primary">
             <div class="container col-md-8">
-                <div class="row mb-3">
+                <div class="row">
                     <h2 class="text-center">Benefícios</h2>
                 </div>
-                <div class="row pt-5">
+                <div class="row pt-4">
                     <div class="col-12 col-md-4">
                         <div class="imagem-beneficio">
                             <div id="imagem-beneficio-01"></div>
                         </div>
-                        <h4 class="text-center my-4">Cuidade com limpera</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id doloribus deserunt, sint totam accusantium similique. Expedita laboriosam ea veniam corporis fuga eius soluta repellat deserunt earum, saepe minus ipsum dicta!</p>
+                        <h4 class="text-center my-4 pt-2">Cuidade com limpera</h4>
+                        <p class="px-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id doloribus deserunt, sint totam accusantium similique. Expedita laboriosam ea veniam corporis fuga eius soluta repellat deserunt earum, saepe minus ipsum dicta!</p>
                     </div>
                     <div class="col-12 col-md-4">
                         <div class="imagem-beneficio">
                             <div id="imagem-beneficio-02"></div>
                         </div>
-                        <h4 class="text-center my-4">PET Friends</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id doloribus deserunt, sint totam accusantium similique. Expedita laboriosam ea veniam corporis fuga eius soluta repellat deserunt earum, saepe minus ipsum dicta!</p>
+                        <h4 class="text-center my-4 pt-2">PET Friends</h4>
+                        <p class="px-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id doloribus deserunt, sint totam accusantium similique. Expedita laboriosam ea veniam corporis fuga eius soluta repellat deserunt earum, saepe minus ipsum dicta!</p>
                     </div>
                     <div class="col-12 col-md-4">
                         <div class="imagem-beneficio">
                             <div id="imagem-beneficio-03"></div>
                         </div>
-                        <h4 class="text-center my-4">Cuidade com limpera</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id doloribus deserunt, sint totam accusantium similique. Expedita laboriosam ea veniam corporis fuga eius soluta repellat deserunt earum, saepe minus ipsum dicta!</p>
+                        <h4 class="text-center my-4 pt-2">Cuidade com limpera</h4>
+                        <p class="px-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id doloribus deserunt, sint totam accusantium similique. Expedita laboriosam ea veniam corporis fuga eius soluta repellat deserunt earum, saepe minus ipsum dicta!</p>
                     </div>
                 </div>
             </div>
@@ -159,7 +166,7 @@
     </main>
 
     <footer class="py-5">
-        <div class="container col-md-9">
+        <div class="container col-md-9 py-3">
             <div class="row justify-content-between">
                 <div class="col-12 col-md-5">
                     <p>&copy; Todos os direitos reservados</p>
@@ -167,8 +174,7 @@
                 <div class="col col-md-5 d-block d-md-flex justify-content-end">
                     <a href="" class="mx-auto mx-md-3"><i class="fa-brands fa-linkedin"></i></a>
                     <a href="" class="mx-auto mx-md-3"><i class="fa-brands fa-github-alt"></i></a>
-                    <a href="" class="mx-auto mx-md-3"><i class="fa-brands fa-whatsapp"></i></a>
-                    <a href="" class="mx-auto mx-md-3"><i class="fa fa-mail"></i></a>
+                    <a href="" class="ms-auto ms-md-3"><i class="fa-brands fa-whatsapp"></i></a>
                 </div>
             </div>
         </div>
