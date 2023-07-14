@@ -4,7 +4,7 @@
 
 }
 
-#atendimento p, #produtos p, #beneficios p{
+#atendimento p, #produtos p{
     text-indent: 25px;
 
 }
@@ -26,7 +26,16 @@ hr{
 }
 
 
-#beneficios{
+hr.linha{
+    width: 75%;
+    border-bottom: 2px solid #0d6efd;
+    margin-bottom: 30px;
+    opacity: .75;
+
+}
+
+
+#diferenciais{
     padding: 50px 0 25px;
     margin-bottom: 100px;
     color: white;
@@ -34,32 +43,33 @@ hr{
 }
 
 
-#beneficios p{
+#diferenciais p{
     font-size: .93em;
+    margin-bottom: 100px;
 
 }
 
 
-.imagem-beneficio{
+.imagem-diferenciais{
     height: 250px;
 }
 
 
-#imagem-beneficio-01{
+#imagem-diferenciais-01{
     height: 100%;
     background: url("img/tosa.png") no-repeat center center;
     background-size: contain;
 
 }
 
-#imagem-beneficio-02{
+#imagem-diferenciais-02{
     height: 100%;
     background: url("img/petfriend.png") no-repeat center center;
     background-size: contain;
 
 }
 
-#imagem-beneficio-03{
+#imagem-diferenciais-03{
     height: 100%;
     background: url("img/banho.png") no-repeat center center;
     background-size: contain;
